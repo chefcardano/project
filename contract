@@ -1273,7 +1273,7 @@ contract Chefcardano is ERC20, Ownable {
     uint256 public marketingFee = 3;
     uint256 public totalFees = ADARewardsFee.add(liquidityFee).add(marketingFee);
 
-    address public _marketingWalletAddress = 0x12345411294d0FdDF644800e3a524Cb73fFdfE7f;
+    address public _marketingWalletAddress = INPUT ADRESS HERE;
 
 
     // use by default 300,000 gas to process auto-claiming dividends
@@ -1320,7 +1320,7 @@ contract Chefcardano is ERC20, Ownable {
     	address indexed processor
     );
 
-    constructor() public ERC20("ChefCardano", "ChefCardano") {
+    constructor() public ERC20("ChefCardano", "CAD") {
 
     	dividendTracker = new ChefCardanoDividendTracker();
 

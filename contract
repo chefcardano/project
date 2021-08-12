@@ -8,7 +8,7 @@ pragma solidity ^0.6.2;
 
 // ChefCardano
 // Hold and get rewarded in $ADA!
-// 3% LP, 14% CAKE REWARDS, 3% MARKETING | 20% TAX
+// 3% LP, 14% ADA REWARDS, 3% MARKETING | 20% TAX
 // Max Wallet 2%
 // Telegram : https://t.me/chefcardanoofficial
 // Website : https://www.chefcardano.com
